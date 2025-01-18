@@ -8,6 +8,5 @@ public class FahrenheitToCelsius {
         double fahrenheit = obj.nextDouble();
         double celsius = (fahrenheit - 32) * 5 / 9;
         System.out.printf("%.2f", celsius);
-        obj.close();
     }
 }
